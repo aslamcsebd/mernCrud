@@ -1,0 +1,23 @@
+- Vs extension : RapidAPI Client
+
+- 	Read Api
+	GET 	: 	http://localhost:8080
+
+- 	Create Api
+	POST 	: 	http://localhost:8080/create
+	JSON 	: 	{
+					"name" : "User8 name",
+					"email" : "user@gmail.com",
+					"mobile" : 123456
+				}
+
+-	Update Api
+	PUT  	: 	http://localhost:8080/update
+	JSON 	: 	{
+					"id" : "6557609ad2ea7a542d422015",
+					"name" : "aslam"
+				}
+
+- 	Delete Api
+	DELETE 	: 	http://localhost:8080/delete/6557609ad2ea7a542d422015
+	
